@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@-webkit-keyframes change-color {
+    0% {
+      background-color: #000000;
+    }
+    100% {
+      background-color: #242424;
+    }
+  }
+  @keyframes change-color {
+    0% {
+      background-color: #000000;
+    }
+    100% {
+      background-color: #242424;
+    }
+  }
+.body {
+    background-color: #000000;
+}
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20%;
+    padding: 0.5rem 1rem 1rem 0.5rem;
+}
+
+
+
+.footer {
+    font-family: "Roboto";
+    font-size: 18px;
+    text-align: bottom;
+}
+
+.personal {
+    border-radius: 20%;
+    align-items: center;
+    margin: auto;
+}
+div{
+    color: #ffffff;
+}
+
+.centered {
+    font-size: 18px;
+    justify-content: center;
+    top: 12%;
+
+}
+p {
+    text-align: center;
+
+}
+/*footer*/
+.footer {
+    background-color: #000000;
+    text-align: bottom;
+    color: #ffffff;
+    font-size: 24px;
+
+}
+a {
+    padding: 20px;
+    size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+    .footer .socialmedia {
+        display: flex;
+        align-items: bottom;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 30%;
+
+    }
+a:hover {
+    -webkit-animation-name: change-color;
+            animation-name: change-color;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    background-color: #242424;
+}
+  
+  a:active {
+      background-color: #242424;
+}
